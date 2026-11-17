@@ -1,0 +1,15 @@
+{
+  "session_id": "handover-opencode",
+  "harness": "opencode",
+  "harness_version": "v2",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "system": "OpenCode AI assistant helping user compete on make.fun tiny-chess-01.",
+  "tools": [],
+  "messages": [
+    {"role": "user", "content": "Build a chess engine in 4 KB Python for the make.fun tiny-chess-01 bounty."},
+    {"role": "assistant", "content": "Writing engine.py with negamax alpha-beta search.", "timestamp": "2026-11-17T01:35:00Z"},
+    {"role": "assistant", "content": "Compressing with makefun compress and pushing to GitHub.", "timestamp": "2026-11-17T01:45:00Z"}
+  ],
+  "handed_over": "OpenCode kept no session record; this is a summary export written by the assistant"
+}
